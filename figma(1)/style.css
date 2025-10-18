@@ -1,0 +1,271 @@
+body {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 200vh;
+}
+div.scroll-box {
+  width: 431px;
+  height: 917px;
+  background-image: url("pic.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.box {
+    width: 431px;
+    height: 187px;
+    background-color: orange;
+}
+img.profile {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    border-radius: 90%;
+    top: 56%;
+    right: 51%;
+    border: 9px solid white;
+}
+p.portfolio {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 59%;
+    right: 36%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+p.name {
+    position: absolute;
+    color: black;
+    font-size: 25px;
+    top: 65%;
+    right: 41%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+div.horizontal-scroll {
+    position: absolute;
+    top: 80%;
+    width: 431px;
+    height: 70px;
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: transparent;
+    -ms-overflow-style: none;
+}
+div.horizontal-scroll::-webkit-scrollbar {
+    display: none;
+}
+div.About-me {
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    background-color: orange;
+    margin-right: 10px;
+    margin-left: 20px;
+    line-height: 50px; 
+    text-align: center; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    border-radius: 90px;
+}
+div.hobbies {
+    display: inline-block;
+    width: 130px;
+    height: 50px;
+    background-color: orange;
+    margin-right: 10px;
+    margin-left: 20px;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    border-radius: 90px;
+}
+div.favorite {
+    display: inline-block;
+    width: 130px;
+    height: 50px;
+    background-color: orange;
+    margin-right: 10px;
+    margin-left: 20px;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    border-radius: 90px;
+}
+div.learning {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background-color: orange;
+    margin-right: 10px;
+    margin-left: 20px;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    border-radius: 90px;
+}
+div.skill {
+    display: inline-block;
+    width: 130px;
+    height: 50px;
+    background-color: orange;
+    margin-right: 10px;
+    margin-left: 20px;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    border-radius: 90px;
+}
+div.contact {
+    display: inline-block;
+    width: 130px;
+    height: 50px;
+    background-color: orange;
+    margin-right: 10px;
+    margin-left: 20px;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    border-radius: 90px;
+}
+div.achievemnet {
+    display: inline-block;
+    width: 130px;
+    height: 50px;
+    background-color: orange;
+    margin-right: 10px;
+    margin-left: 20px;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    border-radius: 90px;
+}
+div.dow-scroll {
+    width: 431px;
+    height: 525px;
+    background-color: transparent;
+    position: absolute;
+    top: 90%;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+}
+div.dow-scroll::-webkit-scrollbar {
+    display: none;
+}
+p.aboute-me {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 26px;
+}
+p.about-me-down {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 21px;
+    margin-top: 10%;
+    padding: 5%;
+    margin-bottom: 10%;
+}
+p.hobbies {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 26px;
+}
+p.hobbies-down {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 21px;
+    margin-top: 10%;
+    padding: 5%;
+    margin-bottom: 10%;
+}
+p.favorite {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 26px;
+}
+p.favorite-down {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 21px;
+    margin-top: 10%;
+    padding: 5%;
+    margin-bottom: 10%;
+}
+p.learning {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 26px;
+}
+p.learning-down {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 21px;
+    margin-top: 10%;
+    padding: 5%;
+    margin-bottom: 10%;
+}
+p.skill {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 26px;
+}
+p.skill-down {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 21px;
+    margin-top: 10%;
+    padding: 5%;
+    margin-bottom: 10%;
+}
+p.contact {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 26px;
+}
+p.contact-down {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 21px;
+    margin-top: 10%;
+    padding: 5%;
+    margin-bottom: 10%;
+}
+p.achievement {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 26px;
+}
+p.achievement-down {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 21px;
+    margin-top: 10%;
+    padding: 5%;
+    margin-bottom: 10%;
+}
+button {
+    background-color: transparent;
+    border: none;
+}
